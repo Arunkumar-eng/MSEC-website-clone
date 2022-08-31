@@ -1,0 +1,33 @@
+header{
+    background-color: #f5ba13;
+    margin: auto -16px;
+    padding: 16px 32px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+header h1{
+    color: #fff;
+    font-family: "McLaren", cursive;
+    font-weight: 200;   
+    /* align-items: center; */
+}
+
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: 80px;
+}
+.container > div {
+  /* background-color: springgreen; */
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
+  
+}
+
+img{
+  height: 100%;
+  width: 100%;
+}
