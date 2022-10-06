@@ -14,45 +14,98 @@
         </div>
     </header>
     <br>
-    <div>
-        <center>
-            <form action="">
-                <label for="">First Name: </label>
-                <input type="text"> <br> <br>
-                <label for="">Second Name: </label>
-                <input type="text"> <br> <br>
-                <label for="">Phone Number: </label>
-                <input type = "tel"> <br> <br>
-                <label for="">E-mail: </label>
-                <input type="email"> <br> <br>
-                <label for="">Data of Birth: </label>
-                <input type="date"> <br> <br>
-                <label for="">Cut off mark: </label>
-                <input type="number"> <br> <br>
-                <label for="">Gender: </label>
-                <input type="radio" name="gender"> Male 
-                <input type="radio" name="gender"> Female
-                <input type="radio" name="gender"> Others
-                <p>Please select the course: </p>
-                <select name="course" id="">
-                    <option value="">Computer Science</option>
-                    <option value="">Electronics and Communication</option>
-                    <option value="">Electrical and Electronics</option>
-                    <option value="">Civl</option>
-                    <option value="">Mechanical</option>
-                    <option value="">Artificial Intelligence and Data Science</option>
-                    <option value="">Information Technology</option>
-                    <option value="">Bio-Medical</option>
-                    <option value="">Bio-Technology</option>
-                </select>
-                <br> <br> 
-                <input type="submit" value="submit">
-                <input type="reset" value = "clear">
-                
-            </form>
-        </center>
-        
+    <div class = "container">
+        <form>
+            <table>
+                <tr>
+                    <td class="detail">Name</td>
+                    <td class="data"><input name="name_txt" type="text" placeholder="your good name..."></td>
+                </tr>
+                <tr>
+                    <td> </td>
+                    <td > </td>
+                </tr>
+                <tr>
+                    <td class="detail">Register Number</td>
+                    <td class="data"><input name="reg_no" type="number" placeholder="your reg. number..."></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Date of Birth</td>
+                    <td class="data"><input name="dob" type="date"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Gender</td>
+                    <td class="data">
+                        <input class="radio" type="radio" name="gender" value="M">Male
+                        <input class="radio" type="radio" name="gender" value="F">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Department</td>
+                    <td class="data">
+                        <select name="dep_select">
+                            <option value="" disabled selected>--SELECT--</option>
+                            <option value="">Computer Science</option>
+                            <option value="">Electronics and Communication</option>
+                            <option value="">Electrical and Electronics</option>
+                            <option value="">Civl</option>
+                            <option value="">Mechanical</option>
+                            <option value="">Artificial Intelligence and Data Science</option>
+                            <option value="">Information Technology</option>
+                            <option value="">Bio-Medical</option>
+                            <option value="">Bio-Technology</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Blood Group</td>
+                    <td class="data"><input name="blood_txt" type="text" placeholder="your Blood Group..."></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Email ID</td>
+                    <td class="data"><input name="email_txt" type="email" placeholder="abc@xyz.com"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td class="detail">Mobile Number</td>
+                    <td class="data"><input name="phone_no" type="tel" placeholder="Phone..."></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td style="text-align: right;">
+                        <input id="reset_btn" type="reset" value="RESET">&nbsp;&nbsp;&nbsp;&nbsp;
+                        <input id="sub_btn" type="submit" value="SUBMIT">
+                    </td>
+                </tr>
+            </table>
+        </form>
     </div>
-
 </body>
 </html>
